@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.redhat.demo</groupId>
+    <artifactId>my-app</artifactId>
+    <version>1</version>
+  </parent>
+  <groupId>com.redhat.demo</groupId>
+  <artifactId>my-module-1</artifactId>
+  <version>1</version>
+  <name>my-module-1</name>
+  <description>my-module-1</description>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>my-module-3</module>
+  </modules>
+
+  <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jsimone</groupId>
+            <artifactId>webapp-runner</artifactId>
+            <version>7.0.22.3</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
