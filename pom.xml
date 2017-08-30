@@ -11,5 +11,18 @@
     <module>my-module-1</module>
     <module>my-module-2</module>
   </modules>
-
+  <dependencies>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-service-discovery</artifactId>
+      <version>3.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-health-check</artifactId>
+      <version>3.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
 </project>
