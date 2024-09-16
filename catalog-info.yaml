@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: maven-multi-module-example-2
+  annotations:
+    github.com/project-slug: invincibleJai/maven-multi-module-example-2
+  labels:
+    test1: test1
+spec:
+  type: other
+  lifecycle: unknown
+  owner: user:default/invinciblejai
